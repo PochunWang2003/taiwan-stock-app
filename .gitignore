@@ -1,0 +1,37 @@
+﻿# Java / Spring Boot
+target/
+*.class
+*.jar
+.idea/
+*.iml
+
+# Node.js / React
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+
+# Local database and personal data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+data/
+
+# Credentials
+*.key
+*.pem
+secrets/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
